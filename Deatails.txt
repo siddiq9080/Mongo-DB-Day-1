@@ -1,0 +1,8 @@
+The JSON file includes the product_color field but does not have a product_color of "indigo" with a product_price of 492. 9th one is have color:plum value is 492 
+
+9: Find products where the product_color is "plum" and the product_price is 492.00
+
+db.product.find({ product_price: 492, product_color: "plum" }).pretty();
+
+
+The `.pretty()` method formats the output for readability in the MongoDB shell but is not used for delete operations.
